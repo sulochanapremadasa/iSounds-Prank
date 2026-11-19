@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		480C980830ADA0E6007343BC /* iSounds Prank.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 480C980730ADA0E6007343BC /* iSounds Prank.storekit */; };
+		48443E64309C2B2700D5B5C7 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 48443E63309C2B2700D5B5C7 /* GoogleMobileAds */; };
+		48443E8E309C598900D5B5C7 /* fart-funny-cartoon-fast.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48443E78309C598900D5B5C7 /* fart-funny-cartoon-fast.wav */; };
+		48443E90309C598900D5B5C7 /* applause-audience-light.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48443E6F309C598900D5B5C7 /* applause-audience-light.wav */; };
+		48443E94309C598900D5B5C7 /* notification-bell.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48443E7E309C598900D5B5C7 /* notification-bell.wav */; };
+		48443E95309C598900D5B5C7 /* pouring-water-in-a-glass.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48443E82309C598900D5B5C7 /* pouring-water-in-a-glass.wav */; };
+		48443E96309C598900D5B5C7 /* ahhh-male.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48443E6E309C598900D5B5C7 /* ahhh-male.mp3 */; };
+		48443E97309C598900D5B5C7 /* woo-teenage-girl-say.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48443E8B309C598900D5B5C7 /* woo-teenage-girl-say.mp3 */; };
+		48443E99309C598900D5B5C7 /* water-bubble.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48443E88309C598900D5B5C7 /* water-bubble.wav */; };
+		48443E9A309C598900D5B5C7 /* pouring-soda-in-a-glass.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48443E80309C598900D5B5C7 /* pouring-soda-in-a-glass.wav */; };
+		48443E9B309C598900D5B5C7 /* golf-ball-bouncing.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48443E7B309C598900D5B5C7 /* golf-ball-bouncing.wav */; };
+		48443E9E309C598900D5B5C7 /* water-bathroom-sink-running.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48443E87309C598900D5B5C7 /* water-bathroom-sink-running.wav */; };
+		48443E9F309C598900D5B5C7 /* yawn-man-stretches.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48443E8D309C598900D5B5C7 /* yawn-man-stretches.wav */; };
+		48443EA5309C598900D5B5C7 /* burp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48443E70309C598900D5B5C7 /* burp.mp3 */; };
+		48443EA6309C598900D5B5C7 /* cat-meow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48443E74309C598900D5B5C7 /* cat-meow.mp3 */; };
+		48443EA9309C598900D5B5C7 /* sneeze-young-woman.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48443E86309C598900D5B5C7 /* sneeze-young-woman.wav */; };
+		48443EAA309C598900D5B5C7 /* laugh-crowd.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48443E7D309C598900D5B5C7 /* laugh-crowd.wav */; };
+		48443EAB309C598900D5B5C7 /* saying-no-no-no-cartoon-girl.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48443E83309C598900D5B5C7 /* saying-no-no-no-cartoon-girl.wav */; };
+		48443EAC309C598900D5B5C7 /* fart-in-concert-hall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48443E79309C598900D5B5C7 /* fart-in-concert-hall.mp3 */; };
+		48443EAE309C598900D5B5C7 /* burp-fast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48443E71309C598900D5B5C7 /* burp-fast.mp3 */; };
+		48443EAF309C598900D5B5C7 /* sneeze-little-baby.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48443E84309C598900D5B5C7 /* sneeze-little-baby.wav */; };
+		48443EC0309CE41700D5B5C7 /* police-siren-us-free.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48443EBE309CE41700D5B5C7 /* police-siren-us-free.wav */; };
+		48443EC1309CE41700D5B5C7 /* clown-horn-at-circus-free.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48443EB9309CE41700D5B5C7 /* clown-horn-at-circus-free.wav */; };
+		48443EC2309CE41700D5B5C7 /* explosion-in-battle-free.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48443EBA309CE41700D5B5C7 /* explosion-in-battle-free.wav */; };
+		48443EC3309CE41700D5B5C7 /* ahh-male-free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48443EB6309CE41700D5B5C7 /* ahh-male-free.mp3 */; };
+		48443EC4309CE41700D5B5C7 /* fart-cartoon-fail-blow-free.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48443EBB309CE41700D5B5C7 /* fart-cartoon-fail-blow-free.wav */; };
+		48443EC5309CE41700D5B5C7 /* burp-nice-free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48443EB7309CE41700D5B5C7 /* burp-nice-free.mp3 */; };
+		48443EC6309CE41700D5B5C7 /* fart-light-raspy-free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48443EBC309CE41700D5B5C7 /* fart-light-raspy-free.mp3 */; };
+		48443EC7309CE41700D5B5C7 /* laugh-cartoon-voice-free.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48443EBD309CE41700D5B5C7 /* laugh-cartoon-voice-free.wav */; };
+		48443EC8309CE41700D5B5C7 /* cat-cartoon-kitty-meow-free.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48443EB8309CE41700D5B5C7 /* cat-cartoon-kitty-meow-free.wav */; };
+		48443ECA309CEBF100D5B5C7 /* drink-slurp-free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48443EC9309CEBF100D5B5C7 /* drink-slurp-free.mp3 */; };
+		48443ECC309D0B6600D5B5C7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48443ECB309D0B6600D5B5C7 /* Launch Screen.storyboard */; };
+		4857FC36309DD8AE00535633 /* sneeze-sick-man-free.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC32309DD8AE00535633 /* sneeze-sick-man-free.wav */; };
+		4857FC37309DD8AE00535633 /* woo-community-free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC34309DD8AE00535633 /* woo-community-free.mp3 */; };
+		4857FC38309DD8AE00535633 /* yawn-man-heavily-free.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC35309DD8AE00535633 /* yawn-man-heavily-free.wav */; };
+		4857FC39309DD8AE00535633 /* water-sip-free.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC33309DD8AE00535633 /* water-sip-free.wav */; };
+		4857FC3A309DD8AE00535633 /* pouring-water-free.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC31309DD8AE00535633 /* pouring-water-free.wav */; };
+		4857FC7C309DD8D200535633 /* lick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC60309DD8D200535633 /* lick.mp3 */; };
+		4857FC7D309DD8D200535633 /* whistle-police.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC77309DD8D200535633 /* whistle-police.mp3 */; };
+		4857FC7E309DD8D200535633 /* hiccup-male-free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC55309DD8D200535633 /* hiccup-male-free.mp3 */; };
+		4857FC7F309DD8D200535633 /* laugh-funny-men.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC5B309DD8D200535633 /* laugh-funny-men.mp3 */; };
+		4857FC80309DD8D200535633 /* horn-air.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC56309DD8D200535633 /* horn-air.mp3 */; };
+		4857FC81309DD8D200535633 /* funny-putri-lucu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC51309DD8D200535633 /* funny-putri-lucu.mp3 */; };
+		4857FC82309DD8D200535633 /* cough-women.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC47309DD8D200535633 /* cough-women.mp3 */; };
+		4857FC83309DD8D200535633 /* sneeze-teen-girl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC6E309DD8D200535633 /* sneeze-teen-girl.mp3 */; };
+		4857FC84309DD8D200535633 /* yawn-boaring-man.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC79309DD8D200535633 /* yawn-boaring-man.mp3 */; };
+		4857FC85309DD8D200535633 /* cow-mooing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC49309DD8D200535633 /* cow-mooing.mp3 */; };
+		4857FC86309DD8D200535633 /* pop-bubble.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC65309DD8D200535633 /* pop-bubble.mp3 */; };
+		4857FC87309DD8D200535633 /* snore-two-times.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC73309DD8D200535633 /* snore-two-times.mp3 */; };
+		4857FC88309DD8D200535633 /* fart-funny-free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC4C309DD8D200535633 /* fart-funny-free.mp3 */; };
+		4857FC89309DD8D200535633 /* scream-man-in-pain-free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC6A309DD8D200535633 /* scream-man-in-pain-free.mp3 */; };
+		4857FC8A309DD8D200535633 /* whistle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC76309DD8D200535633 /* whistle.mp3 */; };
+		4857FC8B309DD8D200535633 /* snore-man-deep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC70309DD8D200535633 /* snore-man-deep.mp3 */; };
+		4857FC8C309DD8D200535633 /* ahh-girl-free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC3B309DD8D200535633 /* ahh-girl-free.mp3 */; };
+		4857FC8D309DD8D200535633 /* damn-it.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC4A309DD8D200535633 /* damn-it.mp3 */; };
+		4857FC8E309DD8D200535633 /* oh-shit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC62309DD8D200535633 /* oh-shit.mp3 */; };
+		4857FC8F309DD8D200535633 /* gaming-alert.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC52309DD8D200535633 /* gaming-alert.mp3 */; };
+		4857FC90309DD8D200535633 /* burp-man-gross.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC41309DD8D200535633 /* burp-man-gross.mp3 */; };
+		4857FC91309DD8D200535633 /* laugh-sooo-funny.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC5E309DD8D200535633 /* laugh-sooo-funny.mp3 */; };
+		4857FC92309DD8D200535633 /* yawn-long-free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC7A309DD8D200535633 /* yawn-long-free.mp3 */; };
+		4857FC93309DD8D200535633 /* stomach-growl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC74309DD8D200535633 /* stomach-growl.mp3 */; };
+		4857FC94309DD8D200535633 /* sneeze-girl-twice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC6C309DD8D200535633 /* sneeze-girl-twice.mp3 */; };
+		4857FC95309DD8D200535633 /* ring-telephone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC69309DD8D200535633 /* ring-telephone.mp3 */; };
+		4857FC96309DD8D200535633 /* brush-teeth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC3D309DD8D200535633 /* brush-teeth.mp3 */; };
+		4857FC97309DD8D200535633 /* cough-man.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC43309DD8D200535633 /* cough-man.mp3 */; };
+		4857FC98309DD8D200535633 /* funny-minion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC50309DD8D200535633 /* funny-minion.mp3 */; };
+		4857FC99309DD8D200535633 /* horn-cargo-ship.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC58309DD8D200535633 /* horn-cargo-ship.mp3 */; };
+		4857FC9A309DD8D200535633 /* burp-deeper.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC3F309DD8D200535633 /* burp-deeper.mp3 */; };
+		4857FC9B309DD8D200535633 /* laugh-mischievous.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC5D309DD8D200535633 /* laugh-mischievous.mp3 */; };
+		4857FC9C309DD8D200535633 /* woooooaah-free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC78309DD8D200535633 /* woooooaah-free.mp3 */; };
+		4857FC9D309DD8D200535633 /* snore-man-free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC71309DD8D200535633 /* snore-man-free.mp3 */; };
+		4857FC9E309DD8D200535633 /* fart-loud.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC4D309DD8D200535633 /* fart-loud.mp3 */; };
+		4857FC9F309DD8D200535633 /* sneeze-loud-free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC6D309DD8D200535633 /* sneeze-loud-free.mp3 */; };
+		4857FCA0309DD8D200535633 /* pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC64309DD8D200535633 /* pop.mp3 */; };
+		4857FCA1309DD8D200535633 /* ring-rotary-phone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC68309DD8D200535633 /* ring-rotary-phone.mp3 */; };
+		4857FCA2309DD8D200535633 /* snore-man-funny.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC72309DD8D200535633 /* snore-man-funny.mp3 */; };
+		4857FCA3309DD8D200535633 /* funny-fail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC4F309DD8D200535633 /* funny-fail.mp3 */; };
+		4857FCA4309DD8D200535633 /* gargle-then-spit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC53309DD8D200535633 /* gargle-then-spit.mp3 */; };
+		4857FCA5309DD8D200535633 /* stomach-growl-cartoon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC75309DD8D200535633 /* stomach-growl-cartoon.mp3 */; };
+		4857FCA6309DD8D200535633 /* pop-wow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC66309DD8D200535633 /* pop-wow.mp3 */; };
+		4857FCA7309DD8D200535633 /* ring-cellphone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC67309DD8D200535633 /* ring-cellphone.mp3 */; };
+		4857FCA8309DD8D200535633 /* ahh-girl-nonstop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC3C309DD8D200535633 /* ahh-girl-nonstop.mp3 */; };
+		4857FCA9309DD8D200535633 /* cough-man-deep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC44309DD8D200535633 /* cough-man-deep.mp3 */; };
+		4857FCAA309DD8D200535633 /* yawn-male.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC7B309DD8D200535633 /* yawn-male.mp3 */; };
+		4857FCAB309DD8D200535633 /* laugh-girl-soft-free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC5C309DD8D200535633 /* laugh-girl-soft-free.mp3 */; };
+		4857FCAC309DD8D200535633 /* pig-grunt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC63309DD8D200535633 /* pig-grunt.mp3 */; };
+		4857FCAD309DD8D200535633 /* coughy-angry-women.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC48309DD8D200535633 /* coughy-angry-women.mp3 */; };
+		4857FCAE309DD8D200535633 /* duck-quack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC4B309DD8D200535633 /* duck-quack.mp3 */; };
+		4857FCAF309DD8D200535633 /* scream-shock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC6B309DD8D200535633 /* scream-shock.mp3 */; };
+		4857FCB0309DD8D200535633 /* cough-sickness-free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC45309DD8D200535633 /* cough-sickness-free.mp3 */; };
+		4857FCB1309DD8D200535633 /* burp-girl-free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC40309DD8D200535633 /* burp-girl-free.mp3 */; };
+		4857FCB2309DD8D200535633 /* horn-vintage-car.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC59309DD8D200535633 /* horn-vintage-car.mp3 */; };
+		4857FCB3309DD8D200535633 /* brush-teeth-tongue-cleaning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC3E309DD8D200535633 /* brush-teeth-tongue-cleaning.mp3 */; };
+		4857FCB4309DD8D200535633 /* laugh-evil-free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC5A309DD8D200535633 /* laugh-evil-free.mp3 */; };
+		4857FCB5309DD8D200535633 /* laugh-witch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC5F309DD8D200535633 /* laugh-witch.mp3 */; };
+		4857FCB6309DD8D200535633 /* lick-lolipop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC61309DD8D200535633 /* lick-lolipop.mp3 */; };
+		4857FCB7309DD8D200535633 /* fart-wet-free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC4E309DD8D200535633 /* fart-wet-free.mp3 */; };
+		4857FCB8309DD8D200535633 /* burp-women.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC42309DD8D200535633 /* burp-women.mp3 */; };
+		4857FCB9309DD8D200535633 /* horn-car-free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC57309DD8D200535633 /* horn-car-free.mp3 */; };
+		4857FCBA309DD8D200535633 /* gargle-water-throat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC54309DD8D200535633 /* gargle-water-throat.mp3 */; };
+		4857FCBB309DD8D200535633 /* snore-man-blowing-free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC6F309DD8D200535633 /* snore-man-blowing-free.mp3 */; };
+		4857FCBC309DD8D200535633 /* cough-vomit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC46309DD8D200535633 /* cough-vomit.mp3 */; };
+		485916A630A706EC00A5B0D1 /* ahh-screaming-girl-long.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 485916A530A706EC00A5B0D1 /* ahh-screaming-girl-long.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		480C980730ADA0E6007343BC /* iSounds Prank.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = "iSounds Prank.storekit"; sourceTree = "<group>"; };
+		48443E6E309C598900D5B5C7 /* ahhh-male.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ahhh-male.mp3"; sourceTree = "<group>"; };
+		48443E6F309C598900D5B5C7 /* applause-audience-light.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "applause-audience-light.wav"; sourceTree = "<group>"; };
+		48443E70309C598900D5B5C7 /* burp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = burp.mp3; sourceTree = "<group>"; };
+		48443E71309C598900D5B5C7 /* burp-fast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "burp-fast.mp3"; sourceTree = "<group>"; };
+		48443E74309C598900D5B5C7 /* cat-meow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cat-meow.mp3"; sourceTree = "<group>"; };
+		48443E78309C598900D5B5C7 /* fart-funny-cartoon-fast.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "fart-funny-cartoon-fast.wav"; sourceTree = "<group>"; };
+		48443E79309C598900D5B5C7 /* fart-in-concert-hall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "fart-in-concert-hall.mp3"; sourceTree = "<group>"; };
+		48443E7B309C598900D5B5C7 /* golf-ball-bouncing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "golf-ball-bouncing.wav"; sourceTree = "<group>"; };
+		48443E7D309C598900D5B5C7 /* laugh-crowd.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "laugh-crowd.wav"; sourceTree = "<group>"; };
+		48443E7E309C598900D5B5C7 /* notification-bell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "notification-bell.wav"; sourceTree = "<group>"; };
+		48443E80309C598900D5B5C7 /* pouring-soda-in-a-glass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "pouring-soda-in-a-glass.wav"; sourceTree = "<group>"; };
+		48443E82309C598900D5B5C7 /* pouring-water-in-a-glass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "pouring-water-in-a-glass.wav"; sourceTree = "<group>"; };
+		48443E83309C598900D5B5C7 /* saying-no-no-no-cartoon-girl.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "saying-no-no-no-cartoon-girl.wav"; sourceTree = "<group>"; };
+		48443E84309C598900D5B5C7 /* sneeze-little-baby.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sneeze-little-baby.wav"; sourceTree = "<group>"; };
+		48443E86309C598900D5B5C7 /* sneeze-young-woman.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sneeze-young-woman.wav"; sourceTree = "<group>"; };
+		48443E87309C598900D5B5C7 /* water-bathroom-sink-running.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "water-bathroom-sink-running.wav"; sourceTree = "<group>"; };
+		48443E88309C598900D5B5C7 /* water-bubble.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "water-bubble.wav"; sourceTree = "<group>"; };
+		48443E8B309C598900D5B5C7 /* woo-teenage-girl-say.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "woo-teenage-girl-say.mp3"; sourceTree = "<group>"; };
+		48443E8D309C598900D5B5C7 /* yawn-man-stretches.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "yawn-man-stretches.wav"; sourceTree = "<group>"; };
+		48443EB6309CE41700D5B5C7 /* ahh-male-free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ahh-male-free.mp3"; sourceTree = "<group>"; };
+		48443EB7309CE41700D5B5C7 /* burp-nice-free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "burp-nice-free.mp3"; sourceTree = "<group>"; };
+		48443EB8309CE41700D5B5C7 /* cat-cartoon-kitty-meow-free.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "cat-cartoon-kitty-meow-free.wav"; sourceTree = "<group>"; };
+		48443EB9309CE41700D5B5C7 /* clown-horn-at-circus-free.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "clown-horn-at-circus-free.wav"; sourceTree = "<group>"; };
+		48443EBA309CE41700D5B5C7 /* explosion-in-battle-free.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "explosion-in-battle-free.wav"; sourceTree = "<group>"; };
+		48443EBB309CE41700D5B5C7 /* fart-cartoon-fail-blow-free.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "fart-cartoon-fail-blow-free.wav"; sourceTree = "<group>"; };
+		48443EBC309CE41700D5B5C7 /* fart-light-raspy-free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "fart-light-raspy-free.mp3"; sourceTree = "<group>"; };
+		48443EBD309CE41700D5B5C7 /* laugh-cartoon-voice-free.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "laugh-cartoon-voice-free.wav"; sourceTree = "<group>"; };
+		48443EBE309CE41700D5B5C7 /* police-siren-us-free.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "police-siren-us-free.wav"; sourceTree = "<group>"; };
+		48443EC9309CEBF100D5B5C7 /* drink-slurp-free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "drink-slurp-free.mp3"; sourceTree = "<group>"; };
+		48443ECB309D0B6600D5B5C7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		484E4095308F0F9200864143 /* iSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4857FC31309DD8AE00535633 /* pouring-water-free.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "pouring-water-free.wav"; sourceTree = "<group>"; };
+		4857FC32309DD8AE00535633 /* sneeze-sick-man-free.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "sneeze-sick-man-free.wav"; sourceTree = "<group>"; };
+		4857FC33309DD8AE00535633 /* water-sip-free.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "water-sip-free.wav"; sourceTree = "<group>"; };
+		4857FC34309DD8AE00535633 /* woo-community-free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "woo-community-free.mp3"; sourceTree = "<group>"; };
+		4857FC35309DD8AE00535633 /* yawn-man-heavily-free.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "yawn-man-heavily-free.wav"; sourceTree = "<group>"; };
+		4857FC3B309DD8D200535633 /* ahh-girl-free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ahh-girl-free.mp3"; sourceTree = "<group>"; };
+		4857FC3C309DD8D200535633 /* ahh-girl-nonstop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ahh-girl-nonstop.mp3"; sourceTree = "<group>"; };
+		4857FC3D309DD8D200535633 /* brush-teeth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "brush-teeth.mp3"; sourceTree = "<group>"; };
+		4857FC3E309DD8D200535633 /* brush-teeth-tongue-cleaning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "brush-teeth-tongue-cleaning.mp3"; sourceTree = "<group>"; };
+		4857FC3F309DD8D200535633 /* burp-deeper.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "burp-deeper.mp3"; sourceTree = "<group>"; };
+		4857FC40309DD8D200535633 /* burp-girl-free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "burp-girl-free.mp3"; sourceTree = "<group>"; };
+		4857FC41309DD8D200535633 /* burp-man-gross.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "burp-man-gross.mp3"; sourceTree = "<group>"; };
+		4857FC42309DD8D200535633 /* burp-women.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "burp-women.mp3"; sourceTree = "<group>"; };
+		4857FC43309DD8D200535633 /* cough-man.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cough-man.mp3"; sourceTree = "<group>"; };
+		4857FC44309DD8D200535633 /* cough-man-deep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cough-man-deep.mp3"; sourceTree = "<group>"; };
+		4857FC45309DD8D200535633 /* cough-sickness-free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cough-sickness-free.mp3"; sourceTree = "<group>"; };
+		4857FC46309DD8D200535633 /* cough-vomit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cough-vomit.mp3"; sourceTree = "<group>"; };
+		4857FC47309DD8D200535633 /* cough-women.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cough-women.mp3"; sourceTree = "<group>"; };
+		4857FC48309DD8D200535633 /* coughy-angry-women.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "coughy-angry-women.mp3"; sourceTree = "<group>"; };
+		4857FC49309DD8D200535633 /* cow-mooing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cow-mooing.mp3"; sourceTree = "<group>"; };
+		4857FC4A309DD8D200535633 /* damn-it.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "damn-it.mp3"; sourceTree = "<group>"; };
+		4857FC4B309DD8D200535633 /* duck-quack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "duck-quack.mp3"; sourceTree = "<group>"; };
+		4857FC4C309DD8D200535633 /* fart-funny-free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "fart-funny-free.mp3"; sourceTree = "<group>"; };
+		4857FC4D309DD8D200535633 /* fart-loud.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "fart-loud.mp3"; sourceTree = "<group>"; };
+		4857FC4E309DD8D200535633 /* fart-wet-free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "fart-wet-free.mp3"; sourceTree = "<group>"; };
+		4857FC4F309DD8D200535633 /* funny-fail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "funny-fail.mp3"; sourceTree = "<group>"; };
+		4857FC50309DD8D200535633 /* funny-minion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "funny-minion.mp3"; sourceTree = "<group>"; };
+		4857FC51309DD8D200535633 /* funny-putri-lucu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "funny-putri-lucu.mp3"; sourceTree = "<group>"; };
+		4857FC52309DD8D200535633 /* gaming-alert.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "gaming-alert.mp3"; sourceTree = "<group>"; };
+		4857FC53309DD8D200535633 /* gargle-then-spit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "gargle-then-spit.mp3"; sourceTree = "<group>"; };
+		4857FC54309DD8D200535633 /* gargle-water-throat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "gargle-water-throat.mp3"; sourceTree = "<group>"; };
+		4857FC55309DD8D200535633 /* hiccup-male-free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hiccup-male-free.mp3"; sourceTree = "<group>"; };
+		4857FC56309DD8D200535633 /* horn-air.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "horn-air.mp3"; sourceTree = "<group>"; };
+		4857FC57309DD8D200535633 /* horn-car-free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "horn-car-free.mp3"; sourceTree = "<group>"; };
+		4857FC58309DD8D200535633 /* horn-cargo-ship.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "horn-cargo-ship.mp3"; sourceTree = "<group>"; };
+		4857FC59309DD8D200535633 /* horn-vintage-car.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "horn-vintage-car.mp3"; sourceTree = "<group>"; };
+		4857FC5A309DD8D200535633 /* laugh-evil-free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "laugh-evil-free.mp3"; sourceTree = "<group>"; };
+		4857FC5B309DD8D200535633 /* laugh-funny-men.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "laugh-funny-men.mp3"; sourceTree = "<group>"; };
+		4857FC5C309DD8D200535633 /* laugh-girl-soft-free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "laugh-girl-soft-free.mp3"; sourceTree = "<group>"; };
+		4857FC5D309DD8D200535633 /* laugh-mischievous.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "laugh-mischievous.mp3"; sourceTree = "<group>"; };
+		4857FC5E309DD8D200535633 /* laugh-sooo-funny.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "laugh-sooo-funny.mp3"; sourceTree = "<group>"; };
+		4857FC5F309DD8D200535633 /* laugh-witch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "laugh-witch.mp3"; sourceTree = "<group>"; };
+		4857FC60309DD8D200535633 /* lick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lick.mp3; sourceTree = "<group>"; };
+		4857FC61309DD8D200535633 /* lick-lolipop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "lick-lolipop.mp3"; sourceTree = "<group>"; };
+		4857FC62309DD8D200535633 /* oh-shit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "oh-shit.mp3"; sourceTree = "<group>"; };
+		4857FC63309DD8D200535633 /* pig-grunt.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "pig-grunt.mp3"; sourceTree = "<group>"; };
+		4857FC64309DD8D200535633 /* pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pop.mp3; sourceTree = "<group>"; };
+		4857FC65309DD8D200535633 /* pop-bubble.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "pop-bubble.mp3"; sourceTree = "<group>"; };
+		4857FC66309DD8D200535633 /* pop-wow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "pop-wow.mp3"; sourceTree = "<group>"; };
+		4857FC67309DD8D200535633 /* ring-cellphone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ring-cellphone.mp3"; sourceTree = "<group>"; };
+		4857FC68309DD8D200535633 /* ring-rotary-phone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ring-rotary-phone.mp3"; sourceTree = "<group>"; };
+		4857FC69309DD8D200535633 /* ring-telephone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ring-telephone.mp3"; sourceTree = "<group>"; };
+		4857FC6A309DD8D200535633 /* scream-man-in-pain-free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "scream-man-in-pain-free.mp3"; sourceTree = "<group>"; };
+		4857FC6B309DD8D200535633 /* scream-shock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "scream-shock.mp3"; sourceTree = "<group>"; };
+		4857FC6C309DD8D200535633 /* sneeze-girl-twice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sneeze-girl-twice.mp3"; sourceTree = "<group>"; };
+		4857FC6D309DD8D200535633 /* sneeze-loud-free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sneeze-loud-free.mp3"; sourceTree = "<group>"; };
+		4857FC6E309DD8D200535633 /* sneeze-teen-girl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sneeze-teen-girl.mp3"; sourceTree = "<group>"; };
+		4857FC6F309DD8D200535633 /* snore-man-blowing-free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "snore-man-blowing-free.mp3"; sourceTree = "<group>"; };
+		4857FC70309DD8D200535633 /* snore-man-deep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "snore-man-deep.mp3"; sourceTree = "<group>"; };
+		4857FC71309DD8D200535633 /* snore-man-free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "snore-man-free.mp3"; sourceTree = "<group>"; };
+		4857FC72309DD8D200535633 /* snore-man-funny.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "snore-man-funny.mp3"; sourceTree = "<group>"; };
+		4857FC73309DD8D200535633 /* snore-two-times.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "snore-two-times.mp3"; sourceTree = "<group>"; };
+		4857FC74309DD8D200535633 /* stomach-growl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "stomach-growl.mp3"; sourceTree = "<group>"; };
+		4857FC75309DD8D200535633 /* stomach-growl-cartoon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "stomach-growl-cartoon.mp3"; sourceTree = "<group>"; };
+		4857FC76309DD8D200535633 /* whistle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whistle.mp3; sourceTree = "<group>"; };
+		4857FC77309DD8D200535633 /* whistle-police.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "whistle-police.mp3"; sourceTree = "<group>"; };
+		4857FC78309DD8D200535633 /* woooooaah-free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "woooooaah-free.mp3"; sourceTree = "<group>"; };
+		4857FC79309DD8D200535633 /* yawn-boaring-man.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "yawn-boaring-man.mp3"; sourceTree = "<group>"; };
+		4857FC7A309DD8D200535633 /* yawn-long-free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "yawn-long-free.mp3"; sourceTree = "<group>"; };
+		4857FC7B309DD8D200535633 /* yawn-male.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "yawn-male.mp3"; sourceTree = "<group>"; };
+		485916A530A706EC00A5B0D1 /* ahh-screaming-girl-long.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ahh-screaming-girl-long.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		48443E66309C2BD100D5B5C7 /* Exceptions for "iSounds" folder in "iSounds" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 484E4094308F0F9200864143 /* iSounds */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		484E4097308F0F9200864143 /* iSounds */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				48443E66309C2BD100D5B5C7 /* Exceptions for "iSounds" folder in "iSounds" target */,
+			);
+			path = iSounds;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		484E4092308F0F9200864143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				48443E64309C2B2700D5B5C7 /* GoogleMobileAds in Frameworks */,
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		484E408C308F0F9200864143 = {
+			isa = PBXGroup;
+			children = (
+				480C980730ADA0E6007343BC /* iSounds Prank.storekit */,
+				48443ECB309D0B6600D5B5C7 /* Launch Screen.storyboard */,
+				484E4097308F0F9200864143 /* iSounds */,
+				484E4147308F486800864143 /* Sounds */,
+				484E4096308F0F9200864143 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		484E4096308F0F9200864143 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				484E4095308F0F9200864143 /* iSounds.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		484E4147308F486800864143 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				485916A530A706EC00A5B0D1 /* ahh-screaming-girl-long.mp3 */,
+				4857FC3B309DD8D200535633 /* ahh-girl-free.mp3 */,
+				4857FC3C309DD8D200535633 /* ahh-girl-nonstop.mp3 */,
+				4857FC3D309DD8D200535633 /* brush-teeth.mp3 */,
+				4857FC3E309DD8D200535633 /* brush-teeth-tongue-cleaning.mp3 */,
+				4857FC3F309DD8D200535633 /* burp-deeper.mp3 */,
+				4857FC40309DD8D200535633 /* burp-girl-free.mp3 */,
+				4857FC41309DD8D200535633 /* burp-man-gross.mp3 */,
+				4857FC42309DD8D200535633 /* burp-women.mp3 */,
+				4857FC43309DD8D200535633 /* cough-man.mp3 */,
+				4857FC44309DD8D200535633 /* cough-man-deep.mp3 */,
+				4857FC45309DD8D200535633 /* cough-sickness-free.mp3 */,
+				4857FC46309DD8D200535633 /* cough-vomit.mp3 */,
+				4857FC47309DD8D200535633 /* cough-women.mp3 */,
+				4857FC48309DD8D200535633 /* coughy-angry-women.mp3 */,
+				4857FC49309DD8D200535633 /* cow-mooing.mp3 */,
+				4857FC4A309DD8D200535633 /* damn-it.mp3 */,
+				4857FC4B309DD8D200535633 /* duck-quack.mp3 */,
+				4857FC4C309DD8D200535633 /* fart-funny-free.mp3 */,
+				4857FC4D309DD8D200535633 /* fart-loud.mp3 */,
+				4857FC4E309DD8D200535633 /* fart-wet-free.mp3 */,
+				4857FC4F309DD8D200535633 /* funny-fail.mp3 */,
+				4857FC50309DD8D200535633 /* funny-minion.mp3 */,
+				4857FC51309DD8D200535633 /* funny-putri-lucu.mp3 */,
+				4857FC52309DD8D200535633 /* gaming-alert.mp3 */,
+				4857FC53309DD8D200535633 /* gargle-then-spit.mp3 */,
+				4857FC54309DD8D200535633 /* gargle-water-throat.mp3 */,
+				4857FC55309DD8D200535633 /* hiccup-male-free.mp3 */,
+				4857FC56309DD8D200535633 /* horn-air.mp3 */,
+				4857FC57309DD8D200535633 /* horn-car-free.mp3 */,
+				4857FC58309DD8D200535633 /* horn-cargo-ship.mp3 */,
+				4857FC59309DD8D200535633 /* horn-vintage-car.mp3 */,
+				4857FC5A309DD8D200535633 /* laugh-evil-free.mp3 */,
+				4857FC5B309DD8D200535633 /* laugh-funny-men.mp3 */,
+				4857FC5C309DD8D200535633 /* laugh-girl-soft-free.mp3 */,
+				4857FC5D309DD8D200535633 /* laugh-mischievous.mp3 */,
+				4857FC5E309DD8D200535633 /* laugh-sooo-funny.mp3 */,
+				4857FC5F309DD8D200535633 /* laugh-witch.mp3 */,
+				4857FC60309DD8D200535633 /* lick.mp3 */,
+				4857FC61309DD8D200535633 /* lick-lolipop.mp3 */,
+				4857FC62309DD8D200535633 /* oh-shit.mp3 */,
+				4857FC63309DD8D200535633 /* pig-grunt.mp3 */,
+				4857FC64309DD8D200535633 /* pop.mp3 */,
+				4857FC65309DD8D200535633 /* pop-bubble.mp3 */,
+				4857FC66309DD8D200535633 /* pop-wow.mp3 */,
+				4857FC67309DD8D200535633 /* ring-cellphone.mp3 */,
+				4857FC68309DD8D200535633 /* ring-rotary-phone.mp3 */,
+				4857FC69309DD8D200535633 /* ring-telephone.mp3 */,
+				4857FC6A309DD8D200535633 /* scream-man-in-pain-free.mp3 */,
+				4857FC6B309DD8D200535633 /* scream-shock.mp3 */,
+				4857FC6C309DD8D200535633 /* sneeze-girl-twice.mp3 */,
+				4857FC6D309DD8D200535633 /* sneeze-loud-free.mp3 */,
+				4857FC6E309DD8D200535633 /* sneeze-teen-girl.mp3 */,
+				4857FC6F309DD8D200535633 /* snore-man-blowing-free.mp3 */,
+				4857FC70309DD8D200535633 /* snore-man-deep.mp3 */,
+				4857FC71309DD8D200535633 /* snore-man-free.mp3 */,
+				4857FC72309DD8D200535633 /* snore-man-funny.mp3 */,
+				4857FC73309DD8D200535633 /* snore-two-times.mp3 */,
+				4857FC74309DD8D200535633 /* stomach-growl.mp3 */,
+				4857FC75309DD8D200535633 /* stomach-growl-cartoon.mp3 */,
+				4857FC76309DD8D200535633 /* whistle.mp3 */,
+				4857FC77309DD8D200535633 /* whistle-police.mp3 */,
+				4857FC78309DD8D200535633 /* woooooaah-free.mp3 */,
+				4857FC79309DD8D200535633 /* yawn-boaring-man.mp3 */,
+				4857FC7A309DD8D200535633 /* yawn-long-free.mp3 */,
+				4857FC7B309DD8D200535633 /* yawn-male.mp3 */,
+				48443EC9309CEBF100D5B5C7 /* drink-slurp-free.mp3 */,
+				48443EB6309CE41700D5B5C7 /* ahh-male-free.mp3 */,
+				48443EB7309CE41700D5B5C7 /* burp-nice-free.mp3 */,
+				48443EB8309CE41700D5B5C7 /* cat-cartoon-kitty-meow-free.wav */,
+				48443EB9309CE41700D5B5C7 /* clown-horn-at-circus-free.wav */,
+				48443EBA309CE41700D5B5C7 /* explosion-in-battle-free.wav */,
+				48443EBB309CE41700D5B5C7 /* fart-cartoon-fail-blow-free.wav */,
+				48443EBC309CE41700D5B5C7 /* fart-light-raspy-free.mp3 */,
+				48443EBD309CE41700D5B5C7 /* laugh-cartoon-voice-free.wav */,
+				48443EBE309CE41700D5B5C7 /* police-siren-us-free.wav */,
+				48443E6E309C598900D5B5C7 /* ahhh-male.mp3 */,
+				48443E6F309C598900D5B5C7 /* applause-audience-light.wav */,
+				48443E70309C598900D5B5C7 /* burp.mp3 */,
+				48443E71309C598900D5B5C7 /* burp-fast.mp3 */,
+				48443E74309C598900D5B5C7 /* cat-meow.mp3 */,
+				48443E78309C598900D5B5C7 /* fart-funny-cartoon-fast.wav */,
+				48443E79309C598900D5B5C7 /* fart-in-concert-hall.mp3 */,
+				48443E7B309C598900D5B5C7 /* golf-ball-bouncing.wav */,
+				4857FC31309DD8AE00535633 /* pouring-water-free.wav */,
+				4857FC32309DD8AE00535633 /* sneeze-sick-man-free.wav */,
+				4857FC33309DD8AE00535633 /* water-sip-free.wav */,
+				4857FC34309DD8AE00535633 /* woo-community-free.mp3 */,
+				4857FC35309DD8AE00535633 /* yawn-man-heavily-free.wav */,
+				48443E7D309C598900D5B5C7 /* laugh-crowd.wav */,
+				48443E7E309C598900D5B5C7 /* notification-bell.wav */,
+				48443E80309C598900D5B5C7 /* pouring-soda-in-a-glass.wav */,
+				48443E82309C598900D5B5C7 /* pouring-water-in-a-glass.wav */,
+				48443E83309C598900D5B5C7 /* saying-no-no-no-cartoon-girl.wav */,
+				48443E84309C598900D5B5C7 /* sneeze-little-baby.wav */,
+				48443E86309C598900D5B5C7 /* sneeze-young-woman.wav */,
+				48443E87309C598900D5B5C7 /* water-bathroom-sink-running.wav */,
+				48443E88309C598900D5B5C7 /* water-bubble.wav */,
+				48443E8B309C598900D5B5C7 /* woo-teenage-girl-say.mp3 */,
+				48443E8D309C598900D5B5C7 /* yawn-man-stretches.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		484E4094308F0F9200864143 /* iSounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484E40A0308F0F9300864143 /* Build configuration list for PBXNativeTarget "iSounds" */;
+			buildPhases = (
+				484E4091308F0F9200864143 /* Sources */,
+				484E4092308F0F9200864143 /* Frameworks */,
+				484E4093308F0F9200864143 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				484E4097308F0F9200864143 /* iSounds */,
+			);
+			name = iSounds;
+			packageProductDependencies = (
+				48443E63309C2B2700D5B5C7 /* GoogleMobileAds */,
+			);
+			productName = FunSounds;
+			productReference = 484E4095308F0F9200864143 /* iSounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		484E408D308F0F9200864143 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2720;
+				TargetAttributes = {
+					484E4094308F0F9200864143 = {
+						CreatedOnToolsVersion = 27.1;
+					};
+				};
+			};
+			buildConfigurationList = 484E4090308F0F9200864143 /* Build configuration list for PBXProject "iSounds" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 484E408C308F0F9200864143;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				48443E62309C2B2700D5B5C7 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 484E4096308F0F9200864143 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				484E4094308F0F9200864143 /* iSounds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		484E4093308F0F9200864143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				48443E8E309C598900D5B5C7 /* fart-funny-cartoon-fast.wav in Resources */,
+				48443E90309C598900D5B5C7 /* applause-audience-light.wav in Resources */,
+				48443E94309C598900D5B5C7 /* notification-bell.wav in Resources */,
+				48443E95309C598900D5B5C7 /* pouring-water-in-a-glass.wav in Resources */,
+				48443EC0309CE41700D5B5C7 /* police-siren-us-free.wav in Resources */,
+				48443EC1309CE41700D5B5C7 /* clown-horn-at-circus-free.wav in Resources */,
+				48443EC2309CE41700D5B5C7 /* explosion-in-battle-free.wav in Resources */,
+				48443ECC309D0B6600D5B5C7 /* Launch Screen.storyboard in Resources */,
+				48443EC3309CE41700D5B5C7 /* ahh-male-free.mp3 in Resources */,
+				48443EC4309CE41700D5B5C7 /* fart-cartoon-fail-blow-free.wav in Resources */,
+				48443EC5309CE41700D5B5C7 /* burp-nice-free.mp3 in Resources */,
+				48443EC6309CE41700D5B5C7 /* fart-light-raspy-free.mp3 in Resources */,
+				48443EC7309CE41700D5B5C7 /* laugh-cartoon-voice-free.wav in Resources */,
+				4857FC7C309DD8D200535633 /* lick.mp3 in Resources */,
+				4857FC7D309DD8D200535633 /* whistle-police.mp3 in Resources */,
+				4857FC7E309DD8D200535633 /* hiccup-male-free.mp3 in Resources */,
+				4857FC7F309DD8D200535633 /* laugh-funny-men.mp3 in Resources */,
+				4857FC80309DD8D200535633 /* horn-air.mp3 in Resources */,
+				4857FC81309DD8D200535633 /* funny-putri-lucu.mp3 in Resources */,
+				4857FC82309DD8D200535633 /* cough-women.mp3 in Resources */,
+				4857FC83309DD8D200535633 /* sneeze-teen-girl.mp3 in Resources */,
+				4857FC84309DD8D200535633 /* yawn-boaring-man.mp3 in Resources */,
+				4857FC85309DD8D200535633 /* cow-mooing.mp3 in Resources */,
+				4857FC86309DD8D200535633 /* pop-bubble.mp3 in Resources */,
+				4857FC87309DD8D200535633 /* snore-two-times.mp3 in Resources */,
+				4857FC88309DD8D200535633 /* fart-funny-free.mp3 in Resources */,
+				4857FC89309DD8D200535633 /* scream-man-in-pain-free.mp3 in Resources */,
+				4857FC8A309DD8D200535633 /* whistle.mp3 in Resources */,
+				4857FC8B309DD8D200535633 /* snore-man-deep.mp3 in Resources */,
+				4857FC8C309DD8D200535633 /* ahh-girl-free.mp3 in Resources */,
+				4857FC8D309DD8D200535633 /* damn-it.mp3 in Resources */,
+				4857FC8E309DD8D200535633 /* oh-shit.mp3 in Resources */,
+				4857FC8F309DD8D200535633 /* gaming-alert.mp3 in Resources */,
+				4857FC90309DD8D200535633 /* burp-man-gross.mp3 in Resources */,
+				4857FC91309DD8D200535633 /* laugh-sooo-funny.mp3 in Resources */,
+				4857FC92309DD8D200535633 /* yawn-long-free.mp3 in Resources */,
+				4857FC93309DD8D200535633 /* stomach-growl.mp3 in Resources */,
+				4857FC94309DD8D200535633 /* sneeze-girl-twice.mp3 in Resources */,
+				4857FC95309DD8D200535633 /* ring-telephone.mp3 in Resources */,
+				4857FC96309DD8D200535633 /* brush-teeth.mp3 in Resources */,
+				4857FC97309DD8D200535633 /* cough-man.mp3 in Resources */,
+				4857FC98309DD8D200535633 /* funny-minion.mp3 in Resources */,
+				4857FC99309DD8D200535633 /* horn-cargo-ship.mp3 in Resources */,
+				4857FC9A309DD8D200535633 /* burp-deeper.mp3 in Resources */,
+				4857FC9B309DD8D200535633 /* laugh-mischievous.mp3 in Resources */,
+				4857FC9C309DD8D200535633 /* woooooaah-free.mp3 in Resources */,
+				4857FC9D309DD8D200535633 /* snore-man-free.mp3 in Resources */,
+				4857FC9E309DD8D200535633 /* fart-loud.mp3 in Resources */,
+				4857FC9F309DD8D200535633 /* sneeze-loud-free.mp3 in Resources */,
+				4857FCA0309DD8D200535633 /* pop.mp3 in Resources */,
+				4857FCA1309DD8D200535633 /* ring-rotary-phone.mp3 in Resources */,
+				4857FCA2309DD8D200535633 /* snore-man-funny.mp3 in Resources */,
+				4857FCA3309DD8D200535633 /* funny-fail.mp3 in Resources */,
+				4857FCA4309DD8D200535633 /* gargle-then-spit.mp3 in Resources */,
+				4857FCA5309DD8D200535633 /* stomach-growl-cartoon.mp3 in Resources */,
+				4857FCA6309DD8D200535633 /* pop-wow.mp3 in Resources */,
+				4857FCA7309DD8D200535633 /* ring-cellphone.mp3 in Resources */,
+				4857FCA8309DD8D200535633 /* ahh-girl-nonstop.mp3 in Resources */,
+				4857FCA9309DD8D200535633 /* cough-man-deep.mp3 in Resources */,
+				4857FCAA309DD8D200535633 /* yawn-male.mp3 in Resources */,
+				4857FCAB309DD8D200535633 /* laugh-girl-soft-free.mp3 in Resources */,
+				4857FCAC309DD8D200535633 /* pig-grunt.mp3 in Resources */,
+				4857FCAD309DD8D200535633 /* coughy-angry-women.mp3 in Resources */,
+				4857FCAE309DD8D200535633 /* duck-quack.mp3 in Resources */,
+				4857FCAF309DD8D200535633 /* scream-shock.mp3 in Resources */,
+				4857FCB0309DD8D200535633 /* cough-sickness-free.mp3 in Resources */,
+				485916A630A706EC00A5B0D1 /* ahh-screaming-girl-long.mp3 in Resources */,
+				4857FCB1309DD8D200535633 /* burp-girl-free.mp3 in Resources */,
+				4857FCB2309DD8D200535633 /* horn-vintage-car.mp3 in Resources */,
+				4857FCB3309DD8D200535633 /* brush-teeth-tongue-cleaning.mp3 in Resources */,
+				4857FCB4309DD8D200535633 /* laugh-evil-free.mp3 in Resources */,
+				4857FCB5309DD8D200535633 /* laugh-witch.mp3 in Resources */,
+				4857FCB6309DD8D200535633 /* lick-lolipop.mp3 in Resources */,
+				4857FCB7309DD8D200535633 /* fart-wet-free.mp3 in Resources */,
+				4857FCB8309DD8D200535633 /* burp-women.mp3 in Resources */,
+				4857FCB9309DD8D200535633 /* horn-car-free.mp3 in Resources */,
+				4857FCBA309DD8D200535633 /* gargle-water-throat.mp3 in Resources */,
+				4857FCBB309DD8D200535633 /* snore-man-blowing-free.mp3 in Resources */,
+				4857FCBC309DD8D200535633 /* cough-vomit.mp3 in Resources */,
+				48443EC8309CE41700D5B5C7 /* cat-cartoon-kitty-meow-free.wav in Resources */,
+				48443E96309C598900D5B5C7 /* ahhh-male.mp3 in Resources */,
+				48443E97309C598900D5B5C7 /* woo-teenage-girl-say.mp3 in Resources */,
+				4857FC36309DD8AE00535633 /* sneeze-sick-man-free.wav in Resources */,
+				4857FC37309DD8AE00535633 /* woo-community-free.mp3 in Resources */,
+				4857FC38309DD8AE00535633 /* yawn-man-heavily-free.wav in Resources */,
+				4857FC39309DD8AE00535633 /* water-sip-free.wav in Resources */,
+				4857FC3A309DD8AE00535633 /* pouring-water-free.wav in Resources */,
+				48443E99309C598900D5B5C7 /* water-bubble.wav in Resources */,
+				48443ECA309CEBF100D5B5C7 /* drink-slurp-free.mp3 in Resources */,
+				48443E9A309C598900D5B5C7 /* pouring-soda-in-a-glass.wav in Resources */,
+				480C980830ADA0E6007343BC /* iSounds Prank.storekit in Resources */,
+				48443E9B309C598900D5B5C7 /* golf-ball-bouncing.wav in Resources */,
+				48443E9E309C598900D5B5C7 /* water-bathroom-sink-running.wav in Resources */,
+				48443E9F309C598900D5B5C7 /* yawn-man-stretches.wav in Resources */,
+				48443EA5309C598900D5B5C7 /* burp.mp3 in Resources */,
+				48443EA6309C598900D5B5C7 /* cat-meow.mp3 in Resources */,
+				48443EA9309C598900D5B5C7 /* sneeze-young-woman.wav in Resources */,
+				48443EAA309C598900D5B5C7 /* laugh-crowd.wav in Resources */,
+				48443EAB309C598900D5B5C7 /* saying-no-no-no-cartoon-girl.wav in Resources */,
+				48443EAC309C598900D5B5C7 /* fart-in-concert-hall.mp3 in Resources */,
+				48443EAE309C598900D5B5C7 /* burp-fast.mp3 in Resources */,
+				48443EAF309C598900D5B5C7 /* sneeze-little-baby.wav in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		484E4091308F0F9200864143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		484E409E308F0F9300864143 /* Debug configuration for PBXProject "iSounds" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 84YF9KGTY2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		484E409F308F0F9300864143 /* Release configuration for PBXProject "iSounds" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 84YF9KGTY2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		484E40A1308F0F9300864143 /* Debug configuration for PBXNativeTarget "iSounds" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84YF9KGTY2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iSounds/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "iSounds Prank";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sulo.iSounds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		484E40A2308F0F9300864143 /* Release configuration for PBXNativeTarget "iSounds" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84YF9KGTY2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iSounds/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "iSounds Prank";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sulo.iSounds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		484E4090308F0F9200864143 /* Build configuration list for PBXProject "iSounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484E409E308F0F9300864143 /* Debug configuration for PBXProject "iSounds" */,
+				484E409F308F0F9300864143 /* Release configuration for PBXProject "iSounds" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		484E40A0308F0F9300864143 /* Build configuration list for PBXNativeTarget "iSounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484E40A1308F0F9300864143 /* Debug configuration for PBXNativeTarget "iSounds" */,
+				484E40A2308F0F9300864143 /* Release configuration for PBXNativeTarget "iSounds" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		48443E62309C2B2700D5B5C7 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		48443E63309C2B2700D5B5C7 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48443E62309C2B2700D5B5C7 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 484E408D308F0F9200864143 /* Project object */;
+	validationLevel = 1;
+}
