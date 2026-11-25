@@ -17,10 +17,23 @@ struct AdMobBannerView: UIViewRepresentable {
         if let windowScene = scenes.first(where: { $0 is UIWindowScene }) as? UIWindowScene {
             banner.rootViewController = windowScene.windows.first?.rootViewController
         }
+        banner.delegate = context.coordinator
         banner.load(Request())
         return banner
     }
     func updateUIView(_ uiView: BannerView, context: Context) {}
+    
+    func makeCoordinator() -> Coordinator { Coordinator() }
+    
+    /// Logs banner load results so failures (e.g. "No fill") show in the console.
+    final class Coordinator: NSObject, BannerViewDelegate {
+        func bannerViewDidReceiveAd(_ bannerView: BannerView) {
+            print("Banner loaded")
+        }
+        func bannerView(_ bannerView: BannerView, didFailToReceiveAdWithError error: Error) {
+            print("Banner failed to load: \(error.localizedDescription)")
+        }
+    }
 }
 
 //import SwiftUI

@@ -15,6 +15,7 @@ struct SoundsListView: View {
     @StateObject private var interstitial = AdMobInterstitialAd()
     
     @State private var showPaywall = false
+    @State private var recordingSound: SoundItem?
     
     var body: some View {
         NavigationView{
@@ -102,14 +103,23 @@ struct SoundsListView: View {
                                     SoundRowView(
                                         sound: sound,
                                         isPlaying: viewModel.currentlyPlayingID == sound.id,
-                                        isLocked: !isAccessible
-                                    ) {
-                                        if isAccessible {
-                                            viewModel.togglePlay(for: sound)
-                                        } else {
-                                            showPaywall = true
+                                        isLocked: !isAccessible,
+                                        onRecordTapped: {
+                                            if isAccessible {
+                                                viewModel.stopPlayback()
+                                                recordingSound = sound
+                                            } else {
+                                                showPaywall = true
+                                            }
+                                        },
+                                        onPlayTapped: {
+                                            if isAccessible {
+                                                viewModel.togglePlay(for: sound)
+                                            } else {
+                                                showPaywall = true
+                                            }
                                         }
-                                    }
+                                    )
                                 }
                             }
                         }
@@ -141,6 +151,9 @@ struct SoundsListView: View {
             .fullScreenCover(isPresented: $showPaywall) {
                 PaywallView()
             }
+            .fullScreenCover(item: $recordingSound) { sound in
+                RecordFlowView(sound: sound)
+            }
             .onAppear {
                 if !proManager.isProUser {
                     interstitial.load()
@@ -168,6 +181,7 @@ struct SoundRowView: View {
     let sound: SoundItem
     let isPlaying: Bool
     let isLocked: Bool
+    let onRecordTapped: () -> Void
     let onPlayTapped: () -> Void
     
     var body: some View {
@@ -206,6 +220,16 @@ struct SoundRowView: View {
             }
 
             Spacer()
+
+            // Record & Share button (left of the play button)
+            Button(action: onRecordTapped) {
+                Image("RecordAndShare")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 44, height: 44)
+                    .opacity(isLocked ? 0.5 : 1.0)
+            }
+            .accessibilityLabel("Record and Share")
 
             Button(action: onPlayTapped) {
                 ZStack {

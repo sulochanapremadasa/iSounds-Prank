@@ -692,6 +692,9 @@
 				INFOPLIST_FILE = iSounds/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "iSounds Prank";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSCameraUsageDescription = "iSounds uses the camera to record funny videos while your selected sound plays.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "iSounds uses the microphone to capture your reactions in recorded videos.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "iSounds saves your recorded videos to your photo library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -731,6 +734,9 @@
 				INFOPLIST_FILE = iSounds/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "iSounds Prank";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSCameraUsageDescription = "iSounds uses the camera to record funny videos while your selected sound plays.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "iSounds uses the microphone to capture your reactions in recorded videos.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "iSounds saves your recorded videos to your photo library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

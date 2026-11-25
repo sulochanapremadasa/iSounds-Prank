@@ -118,8 +118,7 @@ class SoundsViewModel: NSObject, ObservableObject, AVAudioPlayerDelegate {
         }
 
         // Try finding the file in the Sounds folder subdirectory first, then root bundle
-        guard let url = Bundle.main.url(forResource: item.filename, withExtension: item.fileExtension, subdirectory: "Sounds")
-                ?? Bundle.main.url(forResource: item.filename, withExtension: item.fileExtension) else {
+        guard let url = item.fileURL else {
             print("Could not find audio file path for: \(item.filename).\(item.fileExtension)")
             return
         }
@@ -135,6 +134,12 @@ class SoundsViewModel: NSObject, ObservableObject, AVAudioPlayerDelegate {
         } catch {
             print("Playback failed: \(error.localizedDescription)")
         }
+    }
+
+    /// Stops whatever sound is currently playing in the list.
+    func stopPlayback() {
+        player?.stop()
+        currentlyPlayingID = nil
     }
 
     // MARK: - AVAudioPlayerDelegate

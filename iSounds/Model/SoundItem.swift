@@ -16,3 +16,11 @@ struct SoundItem: Identifiable {
     let fileExtension: String
     let isFree : Bool
 }
+
+extension SoundItem {
+    /// Location of the audio file in the bundle: the "Sounds" folder first, then the bundle root.
+    var fileURL: URL? {
+        Bundle.main.url(forResource: filename, withExtension: fileExtension, subdirectory: "Sounds")
+            ?? Bundle.main.url(forResource: filename, withExtension: fileExtension)
+    }
+}
