@@ -110,6 +110,18 @@
 		4857FCBB309DD8D200535633 /* snore-man-blowing-free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC6F309DD8D200535633 /* snore-man-blowing-free.mp3 */; };
 		4857FCBC309DD8D200535633 /* cough-vomit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4857FC46309DD8D200535633 /* cough-vomit.mp3 */; };
 		485916A630A706EC00A5B0D1 /* ahh-screaming-girl-long.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 485916A530A706EC00A5B0D1 /* ahh-screaming-girl-long.mp3 */; };
+		4874E8E430B8A6EF00B757E1 /* happy-birthday-to-you-female-free.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4874E8E230B8A6EF00B757E1 /* happy-birthday-to-you-female-free.m4a */; };
+		4874E8E530B8A6EF00B757E1 /* happy-birthday-ukulel.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4874E8E330B8A6EF00B757E1 /* happy-birthday-ukulel.m4a */; };
+		4874E8E630B8A6EF00B757E1 /* ghost-screaming.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4874E8DF30B8A6EF00B757E1 /* ghost-screaming.mp3 */; };
+		4874E8E730B8A6EF00B757E1 /* ghost-scary-scream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4874E8DE30B8A6EF00B757E1 /* ghost-scary-scream.mp3 */; };
+		4874E8E830B8A6EF00B757E1 /* happy-birthday-guitar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4874E8E130B8A6EF00B757E1 /* happy-birthday-guitar.mp3 */; };
+		4874E8E930B8A6EF00B757E1 /* ghostly-wail-free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4874E8E030B8A6EF00B757E1 /* ghostly-wail-free.mp3 */; };
+		4874E8EA30B8A6EF00B757E1 /* doorbel-vintage-free.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4874E8D830B8A6EF00B757E1 /* doorbel-vintage-free.m4a */; };
+		4874E8EB30B8A6EF00B757E1 /* ghost-creepy-ghost-free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4874E8DC30B8A6EF00B757E1 /* ghost-creepy-ghost-free.mp3 */; };
+		4874E8EC30B8A6EF00B757E1 /* doorbell-electronic-free.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4874E8DA30B8A6EF00B757E1 /* doorbell-electronic-free.m4a */; };
+		4874E8ED30B8A6EF00B757E1 /* doorbell-free.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4874E8DB30B8A6EF00B757E1 /* doorbell-free.m4a */; };
+		4874E8EE30B8A6EF00B757E1 /* doorbell-ding-dong.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4874E8D930B8A6EF00B757E1 /* doorbell-ding-dong.m4a */; };
+		4874E8EF30B8A6EF00B757E1 /* ghost-halloween.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4874E8DD30B8A6EF00B757E1 /* ghost-halloween.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -216,6 +228,18 @@
 		4857FC7A309DD8D200535633 /* yawn-long-free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "yawn-long-free.mp3"; sourceTree = "<group>"; };
 		4857FC7B309DD8D200535633 /* yawn-male.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "yawn-male.mp3"; sourceTree = "<group>"; };
 		485916A530A706EC00A5B0D1 /* ahh-screaming-girl-long.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ahh-screaming-girl-long.mp3"; sourceTree = "<group>"; };
+		4874E8D830B8A6EF00B757E1 /* doorbel-vintage-free.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "doorbel-vintage-free.m4a"; sourceTree = "<group>"; };
+		4874E8D930B8A6EF00B757E1 /* doorbell-ding-dong.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "doorbell-ding-dong.m4a"; sourceTree = "<group>"; };
+		4874E8DA30B8A6EF00B757E1 /* doorbell-electronic-free.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "doorbell-electronic-free.m4a"; sourceTree = "<group>"; };
+		4874E8DB30B8A6EF00B757E1 /* doorbell-free.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "doorbell-free.m4a"; sourceTree = "<group>"; };
+		4874E8DC30B8A6EF00B757E1 /* ghost-creepy-ghost-free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ghost-creepy-ghost-free.mp3"; sourceTree = "<group>"; };
+		4874E8DD30B8A6EF00B757E1 /* ghost-halloween.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ghost-halloween.mp3"; sourceTree = "<group>"; };
+		4874E8DE30B8A6EF00B757E1 /* ghost-scary-scream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ghost-scary-scream.mp3"; sourceTree = "<group>"; };
+		4874E8DF30B8A6EF00B757E1 /* ghost-screaming.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ghost-screaming.mp3"; sourceTree = "<group>"; };
+		4874E8E030B8A6EF00B757E1 /* ghostly-wail-free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ghostly-wail-free.mp3"; sourceTree = "<group>"; };
+		4874E8E130B8A6EF00B757E1 /* happy-birthday-guitar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "happy-birthday-guitar.mp3"; sourceTree = "<group>"; };
+		4874E8E230B8A6EF00B757E1 /* happy-birthday-to-you-female-free.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "happy-birthday-to-you-female-free.m4a"; sourceTree = "<group>"; };
+		4874E8E330B8A6EF00B757E1 /* happy-birthday-ukulel.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "happy-birthday-ukulel.m4a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -271,6 +295,18 @@
 		484E4147308F486800864143 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				4874E8D830B8A6EF00B757E1 /* doorbel-vintage-free.m4a */,
+				4874E8D930B8A6EF00B757E1 /* doorbell-ding-dong.m4a */,
+				4874E8DA30B8A6EF00B757E1 /* doorbell-electronic-free.m4a */,
+				4874E8DB30B8A6EF00B757E1 /* doorbell-free.m4a */,
+				4874E8DC30B8A6EF00B757E1 /* ghost-creepy-ghost-free.mp3 */,
+				4874E8DD30B8A6EF00B757E1 /* ghost-halloween.mp3 */,
+				4874E8DE30B8A6EF00B757E1 /* ghost-scary-scream.mp3 */,
+				4874E8DF30B8A6EF00B757E1 /* ghost-screaming.mp3 */,
+				4874E8E030B8A6EF00B757E1 /* ghostly-wail-free.mp3 */,
+				4874E8E130B8A6EF00B757E1 /* happy-birthday-guitar.mp3 */,
+				4874E8E230B8A6EF00B757E1 /* happy-birthday-to-you-female-free.m4a */,
+				4874E8E330B8A6EF00B757E1 /* happy-birthday-ukulel.m4a */,
 				485916A530A706EC00A5B0D1 /* ahh-screaming-girl-long.mp3 */,
 				4857FC3B309DD8D200535633 /* ahh-girl-free.mp3 */,
 				4857FC3C309DD8D200535633 /* ahh-girl-nonstop.mp3 */,
@@ -443,6 +479,18 @@
 				48443E8E309C598900D5B5C7 /* fart-funny-cartoon-fast.wav in Resources */,
 				48443E90309C598900D5B5C7 /* applause-audience-light.wav in Resources */,
 				48443E94309C598900D5B5C7 /* notification-bell.wav in Resources */,
+				4874E8E430B8A6EF00B757E1 /* happy-birthday-to-you-female-free.m4a in Resources */,
+				4874E8E530B8A6EF00B757E1 /* happy-birthday-ukulel.m4a in Resources */,
+				4874E8E630B8A6EF00B757E1 /* ghost-screaming.mp3 in Resources */,
+				4874E8E730B8A6EF00B757E1 /* ghost-scary-scream.mp3 in Resources */,
+				4874E8E830B8A6EF00B757E1 /* happy-birthday-guitar.mp3 in Resources */,
+				4874E8E930B8A6EF00B757E1 /* ghostly-wail-free.mp3 in Resources */,
+				4874E8EA30B8A6EF00B757E1 /* doorbel-vintage-free.m4a in Resources */,
+				4874E8EB30B8A6EF00B757E1 /* ghost-creepy-ghost-free.mp3 in Resources */,
+				4874E8EC30B8A6EF00B757E1 /* doorbell-electronic-free.m4a in Resources */,
+				4874E8ED30B8A6EF00B757E1 /* doorbell-free.m4a in Resources */,
+				4874E8EE30B8A6EF00B757E1 /* doorbell-ding-dong.m4a in Resources */,
+				4874E8EF30B8A6EF00B757E1 /* ghost-halloween.mp3 in Resources */,
 				48443E95309C598900D5B5C7 /* pouring-water-in-a-glass.wav in Resources */,
 				48443EC0309CE41700D5B5C7 /* police-siren-us-free.wav in Resources */,
 				48443EC1309CE41700D5B5C7 /* clown-horn-at-circus-free.wav in Resources */,
