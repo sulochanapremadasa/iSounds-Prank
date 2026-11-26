@@ -63,6 +63,8 @@ enum Constant {
         static let hashtag = "#iSoundsPrank"
         static let facebookPageURLString = "https://www.facebook.com/profile.php?id=61596999114500"
         static var facebookPageURL: URL? { URL(string: facebookPageURLString) }
+        static let appStoreURLString = "https://apps.apple.com/us/app/isounds-prank/id6836133381"
+        static var appStoreURL: URL? { URL(string: appStoreURLString) }
         
         static let features: [Feature] = [
             Feature(
@@ -105,7 +107,7 @@ enum Constant {
         static let openSettings = "Open Settings"
         
         static var caption: String {
-            "Made with iSounds 🎬🔊 \(hashtag)\n\(facebookPageURLString)"
+            "Made with iSounds Prank 🎬🔊 \(hashtag)\n\n Download on the app store \n\(appStoreURLString)"
         }
     }
     
